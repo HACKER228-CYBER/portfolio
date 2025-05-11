@@ -1,0 +1,13 @@
+@use "./scss/variables";
+@use "./base.scss";
+
+.container {
+  margin: 0em 8em;
+}
+
+.text-primary-gradient {
+  background: linear-gradient(90deg, $color-primary, $color-secondary);
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
